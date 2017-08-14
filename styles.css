@@ -14,56 +14,56 @@ header{
 
 }
 body{
-margin: 0px;
-background-color: #000000;
+    margin: 0px;
+    background-color: #000000;
 }
 .main-header__top-container{
-height : 35px;
+    height : 35px;
 }
 .main-header__logo-container{
-float: left;
-width: 70%;
-height: 35px;
-position: relative;
+    float: left;
+    width: 70%;
+    height: 35px;
+    position: relative;
 }
 .main-header__logo{
-position: absolute;
-bottom: 0px;
-left: 15px;
+    position: absolute;
+    bottom: 0px;
+    left: 15px;
 
 }
 .main-header__user-icon-container{
-width: 30%;
-height: 35px;
-float: right;
-position: relative;
+    width: 30%;
+    height: 35px;
+    float: right;
+    position: relative;
 }
 .main-header__user-icon{
-position: absolute;
-bottom: 0px;
-right: 15px;
+    position: absolute;
+    bottom: 0px;
+    right: 15px;
 }
 .main-header__bottom-container{
 
-margin-top: 10px;
+    margin-top: 10px;
 }
 .nav-container{
-/*height: 35px;*/
+    /*height: 35px;*/
 }
 .nav-container__items{
-list-style-type: none;
-padding: 0px;
-margin: 0px;
-width: 100%;
-display: inline-block;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    display: inline-block;
 }
 .nav-container__items li{
-float: left;
-width: 25%;
-height: 35px;
-display:block;
-text-align: center;
-line-height: 35px;
+    float: left;
+    width: 25%;
+    height: 35px;
+    display:block;
+    text-align: center;
+    line-height: 35px;
 
 }
 .nav-container__items li:hover>a
@@ -110,16 +110,16 @@ line-height: 35px;
     padding-left: 16px;
     /*background-color: #1a1a1a;*/
     border-bottom: 1px solid #6a6a6a;
-color: #ffffff;
-font-size: 9.6px;
-font-weight: bold;
-line-height: 42px;
-font-family: sans-serif;
-width: 100%; 
-height: 41px;
+    color: #ffffff;
+    font-size: 9.6px;
+    font-weight: bold;
+    line-height: 42px;
+    font-family: sans-serif;
+    width: 100%; 
+    height: 41px;
 }
 .tech-items li:last-child a{
-color: #e5127d;
+    color: #e5127d;
 }
 
 .nav-container__items-dropdown{
@@ -132,7 +132,7 @@ color: #e5127d;
     padding:8px 0px;
 }
 footer{
-padding-top: 16px;
+    padding-top: 16px;
 }
 .footer-links{
     list-style: none;
@@ -152,7 +152,7 @@ padding-top: 16px;
     line-height: 19.2px;
 }
 .footer-links li{
-display: inline-block;
+    display: inline-block;
 }
 .footer-middle{
     padding: 8px 16px;
