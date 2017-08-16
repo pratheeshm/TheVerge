@@ -373,11 +373,11 @@ line-height: 1;
 }
 .guidebook-bottom-image img{
 width: 100%;
+display: block;
 }
 
 .guidebook-bottom-content{
    display: inline-block;
-   float: left;
     width: 70%;
     color: #424242;
     font-size: 0.9em;
@@ -391,6 +391,7 @@ width: 100%;
 .guidebook-bottom__article{
     display: inline-block;
     margin-bottom: 8px;
+    background-color: #ffffff;
 }
 .guidebook-container{
     display: inline-block;
