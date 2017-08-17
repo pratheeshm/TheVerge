@@ -219,6 +219,7 @@ footer{
 }
 .articles-main-img{
     height: 50%;
+    display: block;
     width: 100%;
 }
 .articles-main-text-container{
@@ -315,6 +316,7 @@ content: "";
     padding: 16px 0px;
     align-items: center;
     display: inline-block;
+    width: 100%;
 }
 .quote-body-container__left{
 text-align: right;
@@ -336,6 +338,7 @@ letter-spacing: 0.02em;
 font-size: 2em;
 color: #e5127d;
 font-family: Heroic;
+font-weight: bold;
 margin-bottom: 0px;
 text-transform: uppercase;
 line-height: 1;
@@ -362,12 +365,13 @@ line-height: 1;
 }
 
 .guidebook-bottom{
-    display: inline-block;
+   
     margin:0px;
     padding: 0 16px .6rem;
+
 }
 .guidebook-bottom-image{
-    display: inline-block;
+   
     float: left;
     width: 30%;
 }
@@ -377,7 +381,11 @@ display: block;
 }
 
 .guidebook-bottom-content{
-   display: inline-block;
+    float: left;
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    transform: translateY(-50%);
     width: 70%;
     color: #424242;
     font-size: 0.9em;
@@ -392,6 +400,8 @@ display: block;
     display: inline-block;
     margin-bottom: 8px;
     background-color: #ffffff;
+    width: 100%;
+    position: relative;
 }
 .guidebook-container{
     display: inline-block;
@@ -401,9 +411,11 @@ display: block;
 
 .guidebook-top{
     padding: 1.2rem 16px 2rem;
+    position: relative;
     
 }
 .guidebook-top__container{
+width: 100%;
 display: inline-block;
 }
 
@@ -421,6 +433,9 @@ display: inline-block;
     float: left;
     color:#e5127d
 }
+.guidebook-top__right div{
+    margin-top: 16px;
+}
 .guidebook-top__right div::after{
     content: "";
     display: inline-block;
@@ -432,6 +447,38 @@ display: inline-block;
     width: 0px;
 }
 .guidebook-top__left img{
-width: 100%;
+max-width: 250px;
+max-height: 50px;
     }
-
+.guidebook-top__left::after{
+    background: #e5127d;
+    content: "";
+    height: 2px;
+    position: absolute;
+    right: 39px;
+    bottom: 16px;
+    left: 16px;
+    z-index: 1;
+}
+.guidebook-top::before{
+    background-color: #e5127d;
+    content: "";
+    height: 2px;
+    position: absolute;
+    right: 40px;
+    bottom: 15px;
+    transform: rotate(-120deg);
+    transform-origin: top right;
+    width: 35px;
+    z-index: 1;
+}
+.more-container{
+    height: 51px;
+    background-color: #e5127d;
+    color: #ffffff;
+    text-align: center;
+    line-height: 51px;
+    font-size: 0.75em;
+    letter-spacing: 0.09em;
+    font-family: helvetica;
+}
