@@ -122,10 +122,14 @@ body{
     color: #e5127d;
 }
 
-.nav-container__items-dropdown{
+.nav-container__items-dropup{
     visibility: hidden;
     display: none;
 
+}
+.nav-container__items-dropdown{
+visibility: visible;
+display: inline;
 }
 .footer-logo{
     text-align: center;
@@ -271,8 +275,6 @@ padding: 16px 8px;
 
 }
 .article-img{
-  
-    height: 100%;
     margin: 0px;
     padding: 0px;
     width: 100%;
@@ -317,6 +319,7 @@ content: "";
     align-items: center;
     display: inline-block;
     width: 100%;
+    background: #ffffff;
 }
 .quote-body-container__left{
 text-align: right;
@@ -481,4 +484,7 @@ max-height: 50px;
     font-size: 0.75em;
     letter-spacing: 0.09em;
     font-family: helvetica;
+}
+.article-container:last-child{
+	border-bottom: 1px solid #e7e7e8;
 }
