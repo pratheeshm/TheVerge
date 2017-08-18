@@ -106,11 +106,11 @@ body{
 
 }
 .tech-items a {
-	height: 100%;
-	background: #1a1a1a;
+    height: 100%;
+    background: #1a1a1a;
 }
 .tech-items li:last-child{
-	height: 100%;
+    height: 100%;
 }
 .tech-items li a{
     border-right: 0px;
@@ -135,8 +135,8 @@ body{
 
 }
 .nav-container__items-dropdown{
-visibility: visible;
-display: inline;
+    visibility: visible;
+    display: inline;
 }
 .footer-logo{
     text-align: center;
@@ -216,7 +216,7 @@ footer{
     font-family: helvetica;
 }
 .articles-main-gradient{
-	background: linear-gradient(90deg,#f7c626 15%,#f68c2f 40%,#e5127d 85%);
+    background: linear-gradient(90deg,#f7c626 15%,#f68c2f 40%,#e5127d 85%);
     height: 4px;
     width: 100%;
     margin: 0px;
@@ -234,14 +234,14 @@ footer{
     width: 100%;
 }
 .articles-main-text-container{
-background: #000000;
-position: absolute;
-bottom: 0px;
-left: 50%;
-width: 70%;
-text-align: center;
-transform:translateX(-50%);
-padding: 16px 8px;
+    background: #000000;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 70%;
+    text-align: center;
+    transform:translateX(-50%);
+    padding: 16px 8px;
 }
 .articles-main-text{
     font-size: 32px;
@@ -252,7 +252,7 @@ padding: 16px 8px;
     letter-spacing: 0.008em;
 }
 .articles-main__author{
-  
+    
     font-family: sans-serif;
     font-size: 12px;
     color: #ffffff;
@@ -275,10 +275,10 @@ padding: 16px 8px;
     display: inline-block;
 }
 .article-img-container{
- 
-   width: 30%;
-   display: inline-block;
-   float: left;
+    
+    width: 30%;
+    display: inline-block;
+    float: left;
 
 }
 .article-img{
@@ -310,13 +310,13 @@ padding: 16px 8px;
     color: #e5127d;
 }
 .article-author::after,.article-time::after{
-border-left: 1px solid #474242;
-display: inline-block;
-height: 1.1em;
-margin: 0 .4em;
-vertical-align: middle;
-width: 2px;
-content: "";
+    border-left: 1px solid #474242;
+    display: inline-block;
+    height: 1.1em;
+    margin: 0 .4em;
+    vertical-align: middle;
+    width: 2px;
+    content: "";
 }
 .article-comments{
     display: inline-block;
@@ -329,29 +329,29 @@ content: "";
     background: #ffffff;
 }
 .quote-body-container__left{
-text-align: right;
-width: 50%;
-display: inline-block;
-float: left;
+    text-align: right;
+    width: 50%;
+    display: inline-block;
+    float: left;
 }
 .quote-body-container__right{
-text-align: left;
-width: 50%;
-display: inline-block;
-float: left;
+    text-align: left;
+    width: 50%;
+    display: inline-block;
+    float: left;
 
 }
 .quote-body-container__right div{
     padding: 0px 8px;
-font-style: italic;
-letter-spacing: 0.02em;
-font-size: 2em;
-color: #e5127d;
-font-family: Heroic;
-font-weight: bold;
-margin-bottom: 0px;
-text-transform: uppercase;
-line-height: 1;
+    font-style: italic;
+    letter-spacing: 0.02em;
+    font-size: 2em;
+    color: #e5127d;
+    font-family: Heroic;
+    font-weight: bold;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    line-height: 1;
 }
 .quote-body-container__left-text{
     font-size: 0.9em;
@@ -371,23 +371,23 @@ line-height: 1;
     color: #6a6a6a;
 }
 .quote-body-container__left-author span{
-  color: #e5127d;  
+    color: #e5127d;  
 }
 
 .guidebook-bottom{
-   
+    
     margin:0px;
     padding: 0 16px .6rem;
 
 }
 .guidebook-bottom-image{
-   
+    
     float: left;
     width: 30%;
 }
 .guidebook-bottom-image img{
-width: 100%;
-display: block;
+    width: 100%;
+    display: block;
 }
 
 .guidebook-bottom-content{
@@ -425,8 +425,8 @@ display: block;
     
 }
 .guidebook-top__container{
-width: 100%;
-display: inline-block;
+    width: 100%;
+    display: inline-block;
 }
 
 .guidebook-top__left{
@@ -457,9 +457,9 @@ display: inline-block;
     width: 0px;
 }
 .guidebook-top__left img{
-max-width: 250px;
-max-height: 50px;
-    }
+    max-width: 250px;
+    max-height: 50px;
+}
 .guidebook-top__left::after{
     background: #e5127d;
     content: "";
@@ -493,5 +493,5 @@ max-height: 50px;
     font-family: helvetica;
 }
 .article-container:last-child{
-	border-bottom: 1px solid #e7e7e8;
+    border-bottom: 1px solid #e7e7e8;
 }
