@@ -325,7 +325,7 @@ footer{
     padding: 16px 0px;
     align-items: center;
     display: inline-block;
-    width: 100%;
+   /* width: 100%;*/
     background: #ffffff;
 }
 .quote-body-container__left{
@@ -494,4 +494,117 @@ footer{
 }
 .article-container:last-child{
     border-bottom: 1px solid #e7e7e8;
+}
+
+@media (min-width: 600px){
+    .articles-container{
+        padding-left:16px;
+        padding-right: 16px;
+    }
+    .article-container,.article-body{
+        width: 100%;
+    }
+    .article-head-text,.quote-body-container__left-text,.quote-body-container__left-author{
+        font-size: 17px;
+    }
+    .article-details{
+        font-size: 12.75px;
+    }
+    .quote-body-container__right div{
+        font-size: 34px;
+    }
+    .quote-body-container{
+        padding: 16px;
+
+    }
+    body{
+        background:none;
+    }
+    header{
+        background: #000000;
+    }
+    .guidebook-container{
+        width:inherit;
+        margin: 0px 16px;
+        display: block;
+    }
+    .guidebook-bottom__article{
+        width: 48.7%;
+        margin-bottom: 16px;
+    }
+    .guidebook-bottom__article:nth-child(2){
+       float: right;
+    }
+    .guidebook-bottom__article:nth-child(4){
+       float: right;
+    }
+    footer{
+        position: relative;
+        padding-top: 32px;
+        padding-bottom: 16px;
+        width: 100%;
+        height: 188px;
+        background: #000000;
+        display: inline-block;
+    }
+    .guidebook-bottom-image img{
+        height: 100%;
+    }
+    .guidebook-bottom-image{
+        height: 103.0px;
+    }
+    .guidebook-bottom-content {
+        font-size: 15.3px;
+    }
+    .articles-main-img{
+        height: 100%;
+    }
+    .footer-links,.footer-middle p,.footer-middle a{
+        text-align: left;
+    }
+    .footer-bottom,.footer-bottom a{
+        text-align: right;
+    }
+    .footer-logo svg{
+        width: 168px;
+    }
+    .footer-bottom a svg{
+        max-width: 220px;
+    }
+    .footer-links li a,.footer-bottom a,.footer-middle p,.footer-middle a,.footer-bottom div{
+        font-size: 12.75px;
+    }
+    .footer-logo{
+        width: 200px;
+        float: left;
+      
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+       
+    }
+    .footer-middle{
+        width: calc(100% - 539px);
+        float: left;
+         
+          position: absolute;
+          left: 200px;
+    }
+    .footer-bottom{
+        width: 275px;
+        float: right;
+        position: absolute;
+        right: 0px;
+        bottom: 16px;
+    }
+    .articles-main-text-container{
+        height: 25%;
+    }
+    .articles-main-text{
+        font-size: 40px;
+    }
+    .articles-main__author{
+        font-size: 18px;
+    }
+    
 }
