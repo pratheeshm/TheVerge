@@ -74,7 +74,10 @@ body{
 {
     background-color: #1a1a1a;
 }
-
+.main-header__user-icon-container .tab-search{
+    display: none;
+    visibility: none;
+}
 .nav-container__items li a{
     text-decoration: none;
     display: block;
@@ -236,6 +239,7 @@ footer{
     height: 50%;
     display: block;
     width: 100%;
+    min-height: 250px;
 }
 .articles-main-text-container{
     background: #000000;
@@ -243,12 +247,13 @@ footer{
     bottom: 0px;
     left: 50%;
     width: 70%;
+    min-height: 100px;
     text-align: center;
     transform:translateX(-50%);
     padding: 16px 8px;
 }
 .articles-main-text{
-    font-size: 32px;
+    font-size: 29px;
     font-family: Heroic;
     text-align: center;
     font-weight: bold;
@@ -507,7 +512,12 @@ visibility: none;
     visibility: none;
     display: none;
 }
+.nav-container__items .tab-item{
+    display: none;
+    visibility: none;
+ }
 @media (min-width: 600px){
+
     .articles-container{
         padding-left:16px;
         padding-right: 16px;
@@ -569,6 +579,7 @@ visibility: none;
     }
     .articles-main-img{
         height: 100%;
+        min-height: 700px;
     }
     .footer-links,.footer-middle p,.footer-middle a{
         text-align: left;
@@ -610,6 +621,7 @@ visibility: none;
     }
     .articles-main-text-container{
         height: 25%;
+        min-height: 150px;
     }
     .articles-main-text{
         font-size: 40px;
@@ -640,14 +652,14 @@ padding: 64px 16px;
 background-image: url(https://cdn.vox-cdn.com/uploads/chorus_asset/file/7383215/Masthead_DB_1.0.png);
     }
     .main-header__user-icon-container{
-        width: 16px;
+        width: 20%;
         height: 16px;
-        top: 108px;
+        top: 106px;
 
     }
     .main-header__user-icon{
         top: 0px;
-        right: 0px;
+    right: 45px;
     }
     .main-header__date{
         visibility: visible;
@@ -714,11 +726,35 @@ background-image: url(https://cdn.vox-cdn.com/uploads/chorus_asset/file/7383215/
     }
     .main-header__bottom-container{
         margin-top: unset;
-        padding-top: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
         border-top: 1px solid #333333;
     }
     .nav-container__items li a{
         border-right: unset;
         border-bottom: unset;
     }
+    .nav-container__items{
+       
+    }
+    .nav-container__items li{
+        width: 10.8%;
+    }
+    .nav-container__items .tab-item{
+    display: block;
+    visibility: visible;
+ }
+   .main-header__user-icon-container .tab-search{
+    display: block;
+    visibility: visible;
+    position: absolute;
+    right: 0px;
+   }
+}
+@media (max-width: 374px){
+    .articles-main-text{
+        font-size: 26px;
+    }
+
+ 
 }
