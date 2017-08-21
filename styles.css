@@ -597,7 +597,7 @@ visibility: none;
         font-size: 12.75px;
     }
     .footer-logo{
-        width: 200px;
+        width: 30%;
         float: left;
       
         position: absolute;
@@ -606,17 +606,17 @@ visibility: none;
        
     }
     .footer-middle{
-        width: calc(100% - 539px);
+        width: 30%;
         float: left;
          
           position: absolute;
-          left: 200px;
+          left: 30%;
     }
     .footer-bottom{
-        width: 275px;
+        width: 30%;
         float: right;
         position: absolute;
-        right: 0px;
+        left: 60%;
         bottom: 16px;
     }
     .articles-main-text-container{
