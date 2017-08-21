@@ -47,6 +47,10 @@ body{
 
     margin-top: 10px;
 }
+.main-header__date{
+    visibility: none;
+    display: none;
+}
 .nav-container{
     /*height: 35px;*/
 }
@@ -495,7 +499,14 @@ footer{
 .article-container:last-child{
     border-bottom: 1px solid #e7e7e8;
 }
-
+/*.nav-container__items li:nth-child(n+4){
+display: none;
+visibility: none;
+}*/
+.tab-quote-container{
+    visibility: none;
+    display: none;
+}
 @media (min-width: 600px){
     .articles-container{
         padding-left:16px;
@@ -606,5 +617,108 @@ footer{
     .articles-main__author{
         font-size: 18px;
     }
-    
+
+.main-header__logo-svg{
+    max-height: 200px;
+    max-width: 700px;
+    height: 100%;
+    width: 100%;
+}
+
+    .main-header__logo{
+        position: inherit;
+        left: 0px;
+    }
+    .main-header__logo-container{
+        height: 120px;
+        width: 100%;
+        text-align: center;
+    }
+    .main-header__top-container{
+height: 145px;
+padding: 64px 16px;
+background-image: url(https://cdn.vox-cdn.com/uploads/chorus_asset/file/7383215/Masthead_DB_1.0.png);
+    }
+    .main-header__user-icon-container{
+        width: 16px;
+        height: 16px;
+        top: 108px;
+
+    }
+    .main-header__user-icon{
+        top: 0px;
+        right: 0px;
+    }
+    .main-header__date{
+        visibility: visible;
+        display: block;
+        text-align: center;
+        color: #ffffff;
+        font-family: Heroic;
+        letter-spacing: 0.05em;
+        font-size: 1.15em;
+        margin-top: 0.6rem;
+    }
+    .main-header__date span::before{
+        content: " | ";
+    }
+    .tab-quote-container{
+        display: inline-block;
+        visibility: visible;
+        width: 100%;
+            background: linear-gradient(90deg,#f7c626 15%,#f68c2f 40%,#e5127d 85%);
+            box-sizing: border-box;
+            padding: 32px;
+            min-height: 250px;
+            color: #000000;
+        ;
+            border-bottom: 16px solid black;
+           
+
+    }
+    .tab-quote-container__left{
+        width: 50%;
+
+        text-align: right;
+        float: left;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        
+        padding-right: 16px;
+        }
+    .tab-quote-container__left a{
+        font-size: 25.5px;
+       text-decoration: none;
+       color: black;
+       font-weight: bold;
+
+    }
+     .tab-quote-container__left div{
+        font-family: Heroic;
+        font-size: 21.25px;
+        font-style: normal;
+        letter-spacing:1.4875;
+     }
+    .tab-quote-container__right{
+        width: 50%;
+        text-align: left;
+        padding-left: 16px;
+        box-sizing: border-box;
+        float: left;
+        font-size: 51px;
+        font-family: Heroic;
+        font-weight: bold;
+        font-style: italic;
+        text-transform: uppercase;
+       
+    }
+    .main-header__bottom-container{
+        margin-top: unset;
+        padding-top: 10px;
+        border-top: 1px solid #333333;
+    }
+    .nav-container__items li a{
+        border-right: unset;
+        border-bottom: unset;
+    }
 }
