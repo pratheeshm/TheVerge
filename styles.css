@@ -13,7 +13,13 @@
 header{
 
 }
+.body__container{
+    max-width: 1400px;
+    margin: auto;
+    background-color: #ffffff;
+}
 body{
+
     margin: 0px;
     background-color: #000000;
 }
@@ -48,7 +54,8 @@ body{
     right: 15px;
 }
 .main-header__bottom-container{
-
+    max-width: 1400px;
+    margin: auto;
     margin-top: 10px;
 }
 .main-header__date{
@@ -300,7 +307,7 @@ footer{
     width: 100%;
 }
 .article-head-text{
-    font-family: serif;
+    font-family: adellesans;
     font-size: .9em;
     padding: 0px 8px;
     color: #474242;
@@ -543,7 +550,7 @@ visibility: none;
 
     }
     body{
-        background:none;
+        /*background:none;*/
     }
     header{
         background: #000000;
@@ -582,6 +589,7 @@ visibility: none;
     font-size: 15.3px;
 }
 .articles-main-img{
+    background-image:
     height: 100%;
     min-height: 700px;
 }
@@ -687,7 +695,7 @@ visibility: none;
     padding: 32px;
     min-height: 250px;
     color: #000000;
-    ;
+    
     border-bottom: 16px solid black;
     
 
@@ -698,8 +706,8 @@ visibility: none;
     text-align: right;
     float: left;
     box-sizing: border-box;
-    font-family: sans-serif;
-    
+    font-family:helvetica;
+    line-height: 28.8px;
     padding-right: 16px;
 }
 .tab-quote-container__left a{
@@ -714,6 +722,7 @@ visibility: none;
     font-size: 21.25px;
     font-style: normal;
     letter-spacing:1.4875;
+    text-transform: uppercase;
 }
 .tab-quote-container__right{
     width: 50%;
