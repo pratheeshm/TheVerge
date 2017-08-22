@@ -32,6 +32,10 @@ body{
     left: 15px;
 
 }
+.circuit-body{
+    display: none;
+    visibility: hidden;
+}
 .main-header__user-icon-container{
     width: 30%;
     height: 35px;
@@ -554,12 +558,12 @@ visibility: none;
         margin-bottom: 16px;
     }
     .guidebook-bottom__article:nth-child(2){
-     float: right;
- }
- .guidebook-bottom__article:nth-child(4){
-     float: right;
- }
- footer{
+       float: right;
+   }
+   .guidebook-bottom__article:nth-child(4){
+       float: right;
+   }
+   footer{
     position: relative;
     padding-top: 32px;
     padding-bottom: 16px;
@@ -690,7 +694,7 @@ visibility: none;
 }
 .tab-quote-container__left{
     width: 50%;
-
+    padding-top: 4%;
     text-align: right;
     float: left;
     box-sizing: border-box;
@@ -722,7 +726,8 @@ visibility: none;
     font-weight: bold;
     font-style: italic;
     text-transform: uppercase;
-    
+    padding-top: 4%;
+
 }
 .main-header__bottom-container{
     margin-top: unset;
@@ -735,7 +740,7 @@ visibility: none;
     border-bottom: unset;
 }
 .nav-container__items{
- 
+   
 }
 .nav-container__items li{
     width: 10.8%;
@@ -757,4 +762,82 @@ visibility: none;
     }
 
     
+}
+@media (min-width: 1024px){
+    .article-container{
+        width: 69%;
+        float: left;
+    }
+    .article-head-text{
+        font-size: 18px;
+    }
+    .article-details{
+        font-size: 13.5px;
+    }
+    .tab-quote-container{
+        border-bottom: unset;
+    }
+    .article-details-container{
+        box-sizing: border-box;
+        padding-left : 8px;
+        padding-top: 16px;
+
+    }
+    .article-img{
+        height: 100%;
+    }
+
+    .article-img-container{
+        height: 112px;
+    }
+    .circuit-body{
+        visibility: visible;
+        display: block;
+        float: left;
+        position: absolute;
+        left: 69%;
+        padding: 0px 16px;
+        width: 300px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .circuit-body__img{
+        height: 178px;
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    .circuit-body div:nth-child(n + 3) .circuit-body__img{
+        padding-top: 32px;
+
+    }
+    .circuit-body__img img{
+        background-size: cover;
+        background-position: 50%;
+        width: 100%;
+        height: 100%;
+    }
+    .circuit-body__text{
+        font-size: 16.2px;
+        font-weight: bolder;
+        font-family: adellesans;
+        color: #626262;
+    }
+    .articles-container{
+        position: relative;
+    }
+    
+    .circuit-body div:first-child{
+        margin-bottom: 16px;
+        
+
+    }
+    .guidebook-container{
+        max-width: 69%;
+    }
+    .quote-body-container{
+        max-width: 69%;
+    }
+    .footer-bottom{
+        bottom: 60px;
+    } 
 }
