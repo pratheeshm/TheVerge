@@ -528,7 +528,9 @@ visibility: none;
     visibility: none;
 }
 @media (min-width: 600px){
-
+    .nav-container__items li a{
+        pointer-events: none;
+    }
     .articles-container{
         padding-left:16px;
         padding-right: 16px;
