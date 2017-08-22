@@ -162,6 +162,7 @@ body{
 }
 footer{
     padding-top: 16px;
+    background-color: #000000;
 }
 .footer-links{
     list-style: none;
